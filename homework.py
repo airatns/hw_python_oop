@@ -123,11 +123,9 @@ def read_package(workout_type: str, data: list) -> Training:
     dictionary = {'SWM': Swimming,
                   'RUN': Running,
                   'WLK': SportsWalking}
-    if workout_type in dictionary:
-        return dictionary[workout_type](*data)
-    else:
-        print(f'{workout_type} is undefined')
-        return exit()
+    if workout_type not in dictionary:
+        raise ValueError(f'{workout_type} is undefined')
+    return dictionary[workout_type](*data)
 
 
 def main(training: Training) -> None:
