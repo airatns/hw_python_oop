@@ -4,10 +4,10 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
 
-Модуль фитнес-трекера: 
+Fitness tracker module: 
 
-* принимает информацию о прошедшей тренировке (длительность тренировки, вес спортсмена, дистанцию), 
+* receives data about the last workout (duration, distance, athlete's weight), 
 
-* опеределяет вид тренировки (бег, ходьба, плавание), 
+* determines the type of workout (running, walking, swimming),
 
-* рассчитывает и выводит результаты тренировки (расход килокалорий).
+* calculates and displays the result of the workout (calorie consumption).
